@@ -1,0 +1,231 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #007bff;
+    padding: 10px 20px;
+  }
+  
+  .logo img {
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    
+  }
+  
+
+  
+  /* Search header styles */
+  .search-header {
+    margin-top: 10px;
+  }
+  
+  .search-header form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-header input[type="text"] {
+    padding: 5px;
+    margin-right: 5px;
+  }
+  
+  .search-header button {
+    padding: 5px 10px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .search-header button:hover {
+    background-color: #003f8f;
+  }
+  
+  /* Main content styles */
+  main {
+    padding: 20px;
+  }
+  
+  .profile {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .profile ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .profile ul li {
+    margin-bottom: 10px;
+  }
+  
+  .profile ul li a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .profile ul li a:hover {
+    color: #0056b3;
+  }
+  
+  /* Footer styles */
+  .footer-container {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-links ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links ul li a:hover {
+    color: #003f8f;
+  }
+  
+  .footer-description {
+    max-width: 300px;
+  }
+  
+  .footer-description h3 {
+    margin-top: 0;
+  }
+  
+  .footer-description p {
+    margin-bottom: 0;
+  }
+  
+  /* Social media styles */
+  .social-media a img {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-media a img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Hero section styles */
+  .hero {
+    text-align: center;
+    background-color: white;
+    padding: 70px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+      }
+  
+  .hero h1 {
+    font-size: 2.5em;
+    margin: 0 0 20px;
+  }
+  
+  .hero p {
+    font-size: 1.5em;
+    margin: 0 0 30px;
+  }
+  
+  .hero .search-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .hero .search-form select,
+  .hero .search-form button {
+    padding: 15px;
+    font-size: 1.2em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .hero .search-form select#opportunity,
+  .hero .search-form select#region {
+    font-size: 1.5em;
+    padding: 20px;
+    width: 250px;
+  }
+  
+  .hero .search-form select {
+    font-size: 1.2em;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Opportunities section styles */
+  .opportunities {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .opportunities h2 {
+    margin-top: 0;
+  }
+  
+  .opportunities .opportunity {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .opportunities .opportunity img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 5px;
+  }
+  
+  /* Ensure the Bootstrap grid system and utilities are used */
+  .container, .row, .col-md-4, .nav, .nav-item, .nav-link {
+    margin: 0;
+    padding: 0;
+  }
+  
+  

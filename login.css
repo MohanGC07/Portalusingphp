@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Poppins:wght@300;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #ff4e50, #f9d423);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+.login-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-container h2 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container input[type="email"],
+.login-container input[type="password"] {
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+.login-container input[type="email"]:focus,
+.login-container input[type="password"]:focus {
+    border-color: #ff4e50;
+    outline: none;
+}
+
+.extra-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.extra-options input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.extra-options a {
+    color: #ff4e50;
+    text-decoration: none;
+}
+
+.extra-options a:hover {
+    text-decoration: underline;
+}
+
+.login-container button[type="submit"] {
+    background: #ff4e50;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.login-container button[type="submit"]:hover {
+    background: #d43f41;
+}
+
+.register {
+    margin-top: 20px;
+}
+
+.register a {
+    color: #ff4e50;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.register a:hover {
+    text-decoration: underline;
+}

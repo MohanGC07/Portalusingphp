@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Poppins:wght@300;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #ff4e50, #f9d423);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+.signup-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.signup-container h2 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding-left: 40px;
+}
+
+.signup-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-container input[type="text"],
+.signup-container input[type="email"],
+.signup-container input[type="password"] {
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+.signup-container input[type="text"]:focus,
+.signup-container input[type="email"]:focus,
+.signup-container input[type="password"]:focus {
+    border-color: #ff4e50;
+    outline: none;
+}
+
+.terms {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.terms input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.terms a {
+    color: #ff4e50;
+    text-decoration: none;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
+
+.signup-container button[type="submit"] {
+    background: #ff4e50;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.signup-container button[type="submit"]:hover {
+    background: #d43f41;
+}
+
+.extra-options {
+    margin: 20px 0;
+}
+
+.social-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border: 2px solid #ddd;
+    color: #333;
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.social-button.google {
+    border-color: #db4437;
+    color: #db4437;
+}
+
+.social-button.google:hover {
+    background: #db4437;
+    color: #fff;
+}
+
+.social-button.facebook {
+    border-color: #3b5998;
+    color: #3b5998;
+}
+
+.social-button.facebook:hover {
+    background: #3b5998;
+    color: #fff;
+}
+
+.login {
+    margin-top: 20px;
+}
+
+.login a {
+    color: #ff4e50;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.login a:hover {
+    text-decoration: underline;
+}
